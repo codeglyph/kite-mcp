@@ -1,0 +1,22 @@
+{
+  "name": "kite-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun build src/index.ts --outdir=dist --target=bun",
+    "start": "bun run src/index.ts",
+    "auth": "bun run src/auth.ts",
+    "dev": "bun --watch src/index.ts",
+    "dev:auth": "bun --watch src/auth.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.5.0",
+    "kiteconnect": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.15",
+    "typescript": "^5.8.3"
+  }
+}
