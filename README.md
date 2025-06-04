@@ -27,7 +27,6 @@ bun install
 2. Set up environment variables:
 
 ```bash
-cp .env.local .env
 # Edit .env with your API credentials
 ```
 
